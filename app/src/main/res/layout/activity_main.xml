@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:context="com.example.sarahahmad.musicalsapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="@string/Home" />
+
+        <TextView
+            android:id="@+id/home_text"
+            style="@style/CategoryStyle"
+            android:text="@string/MainActivity" />
+
+        <Button
+            android:id="@+id/playlistOnMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/PlayingListsActivity" />
+
+        <Button
+            android:id="@+id/uploadOnMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/UploadActivity" />
+
+        <Button
+            android:id="@+id/payOnMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/PaymentActivity" />
+
+
+    </LinearLayout>
+</ScrollView>

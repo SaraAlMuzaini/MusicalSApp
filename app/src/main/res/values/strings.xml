@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="Home">Home</string>
+    <string name="DetailsActivity">Details</string>
+    <string name="PaymentActivity">Payment</string>
+    <string name="PlayingListsActivity">Playing Lists</string>
+    <string name="SearchActivity">Search</string>
+    <string name="UploadActivity">Upload</string>
+    <string name="NowPlayingActivity">Now Playing</string>
+
+    <string name="MainActivity">This is Main Activity (Home page) of the app, the first Activity open When you run this app
+        \nit show the clickable list of Activity that you can do on the app
+        \n- The Activity that contain PlayLists and song
+        \n- the Payment Activity
+        \n-the upload Activity to add song to play in the app; from the device or some another app.</string>
+
+    <string name="textPlayingListsActivity">This Activity contain list of albums and song that ready to play when clicked.\n
+        There will be many buttons:
+        \n- every items in the list go to (Now Playing Activity)
+        \n- and one button for (Upload Activity) to add music.
+    \n- and Home back to main Activity </string>
+
+    <string name="textUploadActivity">Activity to add songs from your device or another app or website\n
+    - using MediaPlayer APIs.
+    \n- There are 2 Buttons:
+       \n - Home back you to main Activity
+   \n - and Playing lists back you to Playing lists Activity </string>
+
+    <string name="textNowPlayingActivity">This activity will contain:
+        \n - start/pause and forward and backward to play song,\n
+        -and picture of the song and the name of the song.\n
+        There will be 2 buttons:
+        \n- go to (Details Activity) to this item.
+    \n- and Playing lists back you to Playing lists Activity</string>
+
+    <string name="textDetailsActivity">This display details information about the song and album.
+    \nname of the song, author, albums name, picture, official website and so on.
+            \nThere will be 2 buttons:
+       \n - for going to (PaymentActivity) for paying this song.
+    \n- and Now Playing back you to Now Playing Activity</string>
+
+    <string name="textPaymentActivity">\nThis Activity represent the payment to pay inside the app..\n using API like: PayPal.
+    There are 2 Buttons.
+       \n - Home back you to main Activity
+    \n - and Details to this item payed, back you to Details Activity</string>
+
+</resources>
